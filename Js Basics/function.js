@@ -58,4 +58,4 @@ function changeValuereference(a)
 var a = {one:'one'}
 console.log('Value of a before changing function is applied: ' + a.one);
 changeValuereference(a);
-console.log('Value of a after changing function is applied: ' + a.one);
+console.log('Value of a after changing function is applied: ' + a.one);  //a's value will be changed
