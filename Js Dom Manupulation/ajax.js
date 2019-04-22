@@ -1,7 +1,7 @@
-var request = new XMLHttpRequest(); // ইন্সট্যান্স অবজেক্ট তৈরী
-request.open('GET', 'url', true); // রিকোয়েস্ট ওপেন করা
-request.send(); // রিকোয়েস্ট পাঠানো
-// রিকোয়েস্ট হ্যান্ডেল
+var request = new XMLHttpRequest(); // instance of 'XMLHttpRequest' object
+request.open('GET', 'url', true); // open request
+request.send(); //send request
+// handle request
 request.onreadystatechange = function handleRequest(){
   console.log(request);
 }
